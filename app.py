@@ -12,8 +12,8 @@ st.set_page_config(
 # --- SIMULASI DATABASE USER (LOGIN GOOGLE) ---
 # Mengakomodasi instruksi login menggunakan username/password (simulasi akun Google)
 USER_CREDENTIALS = {
-    "ferdy@alumni.ac.id": {"nama": "Dosen Ferdy", "role": "PIC PDBA"},
-    "han@alumni.ac.id": {"nama": "Han", "role": "PIC Tracer Study"},
+    "ferdiadzan@gmail.com": {"nama": "Pak Ferdy", "role": "PIC PDBA"},
+    "hantoroksaid@gmail.com": {"nama": "Pak Hantoro", "role": "PIC Tracer Study"},
     "yuhka@unisba.ac.id": {"nama": "Pak Yuhka", "role": "Admin/Supervising"}
 }
 
