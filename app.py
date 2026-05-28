@@ -14,7 +14,7 @@ st.set_page_config(
 USER_CREDENTIALS = {
     "ferdy@alumni.ac.id": {"nama": "Dosen Ferdy", "role": "PIC PDBA"},
     "han@alumni.ac.id": {"nama": "Han", "role": "PIC Tracer Study"},
-    "senior@alumni.ac.id": {"nama": "Dosen Senior", "role": "Admin/Supervising"}
+    "yuhka@unisba.ac.id": {"nama": "Pak Yuhka", "role": "Admin/Supervising"}
 }
 
 # --- INITIAL STATE MANAGEMENT ---
