@@ -91,7 +91,7 @@ def main_page():
     menu = st.tabs(["📋 Alur Kerja & PIC", "✏️ Update Progress Task", "💾 Database Donatur & Tracer"])
     
     # TAB 1: Tabel Alur Kerja
-    with menu:
+    with st.sidebar:
         st.subheader("Kerangka Kerja & Penanggung Jawab (PIC)")
         st.dataframe(df, use_container_width=True)
         
