@@ -96,7 +96,7 @@ def main_page():
         st.dataframe(df, use_container_width=True)
         
     # TAB 2: Update Progress (Hanya PIC bersangkutan atau Admin yang bisa ubah)
-    with menu:
+    with st.sidebar:
         st.subheader("Update Status Pelaksanaan Komponen")
         task_names = [t["Tahapan"] for t in st.session_state.tasks]
         selected_task = st.selectbox("Pilih Tahapan Kerja:", task_names)
@@ -121,7 +121,7 @@ def main_page():
             st.warning("Anda tidak memiliki akses untuk mengubah tahapan ini karena Anda bukan PIC yang ditunjuk.")
 
     # TAB 3: Rencana Fitur Database & Akun (Rencana Implementasi)
-    with menu:
+    with st.sidebar:
         st.subheader("Status Koordinasi & Akun Sistem")
         
         col1, col2 = st.columns(2)
